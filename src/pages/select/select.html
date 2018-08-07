@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>SMS Groceries</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h1>Select the SMS</h1>
+
+  <ion-list>
+    <button ion-item *ngFor="let m of messages" (click)="select(m)">
+      {{ m.body }}
+    </button>
+  </ion-list>
+
+</ion-content>
