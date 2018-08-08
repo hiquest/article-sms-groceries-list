@@ -1,5 +1,5 @@
 {
-  "name": "smsshopping",
+  "name": "SMS Grocery List",
   "integrations": {
     "cordova": {}
   },
